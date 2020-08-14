@@ -93,6 +93,7 @@ var idx = 0;
 
 
 // Aufgabe:
+// Das ist ein Test-Kommentar
 //  Stimmungen zyklisch durchschalten
 //    •  Dazu das Command format jdev/sps/io/15064d77-002f-de7c-ffffc1a0bc6dbf48/changeTo/{sceneNumber}
 //       verwenden und "{sceneNumber}" mit der nummer der Stimmung in der "iterate" function ersetzen
