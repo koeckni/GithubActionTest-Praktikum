@@ -2,6 +2,7 @@
 
 <b>How to push local changes to GitHub</b>
 <br><br>
+<br><br>
 <ins>Step 1:</ins>
 Clone repository:
 go to Github main page --> click on download code
@@ -14,9 +15,8 @@ Go to terminal --> type: "git clone <the link you just copied>"
 <br><br>
 repository is copied now
 open it
-  
-<br><br><br>
-
+<br><br> 
+<br><br>
 <ins>Step 2:</ins>
 Add file:
 first add the file you changed
