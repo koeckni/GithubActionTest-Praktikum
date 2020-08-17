@@ -1,6 +1,6 @@
 # GithubActionTest-Praktikum
 
-first git commit/push;
+<b>How to push local changes to GitHub</b>
 
 <ins>Step 1:</ins>
 Clone repository:
@@ -31,5 +31,10 @@ Now write exactly what happened in the commit.
 • Why is the change necessary?
 • What effect does this change have?
 
-if finished, type ":wq" to save and exit
+if finished, esc and type ":wq" to save and exit
+
+<ins>Step 4:</ins>
+type "git push -u origin master" to push your local content to GitHub.
+
+
 
