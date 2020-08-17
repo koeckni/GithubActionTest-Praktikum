@@ -1,25 +1,17 @@
 # GithubActionTest-Praktikum
 
 <b>How to push local changes to GitHub</b>
-
 <br><br>
-
 <ins>Step 1:</ins>
 Clone repository:
 go to Github main page --> click on download code
-
 <br><br>
 https://user-images.githubusercontent.com/69137818/90240921-699b4e80-de2a-11ea-9b77-d617ac4d6122.png
 <br><br>
-
 then copy the link
-
 <br><br>
-
 Go to terminal --> type: "git clone <the link you just copied>"
-  
 <br><br>
-  
 repository is copied now
 open it
   
