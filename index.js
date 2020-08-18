@@ -5,10 +5,6 @@ const { SSL_OP_EPHEMERAL_RSA } = require('constants');
 const { notEqual } = require('assert');
 const { iterate } = require('when');
 
-// Lets require and assign LxCommunicator if the global LxCommunicator object doesn't exist yet. (Node.js)
-if (typeof LxCommunicator === 'undefined') {
-    global.LxCommunicator = require('LxCommunicator');
-}
 
 var LxCommunicator = require('lxcommunicator');
 //=== Node.js only ===
