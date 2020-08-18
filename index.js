@@ -9,6 +9,8 @@ const { iterate } = require('when');
 if (typeof LxCommunicator === 'undefined') {
     global.LxCommunicator = require('../LxCommunicator');
 }
+
+var LxCommunicator = require('lxcommunicator');
 //=== Node.js only ===
 // test
 // Prepare our variables
@@ -105,9 +107,7 @@ function circleScenes() {
         if (idx < scenesToIterate.length) { 
             var scene = scenesToIterate[idx];
             console.log(scene); 
-                   
             socket.send("jdev/sps/io/15064d77-002f-de7c-ffffc1a0bc6dbf48/changeTo/" + scene).then(function(respons) {
-                 
                 idx++; 
                 console.log(respons.LL.control + "" + respons.LL.Code + "" + respons.LL.value);
                 
