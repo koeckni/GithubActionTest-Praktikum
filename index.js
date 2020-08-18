@@ -10,7 +10,7 @@ if (typeof LxCommunicator === 'undefined') {
     global.LxCommunicator = require('../LxCommunicator');
 }
 //=== Node.js only ===
-
+// test
 // Prepare our variables
 // uuid is used to identify a device
 var uuid = getUUID(),
