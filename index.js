@@ -109,7 +109,7 @@ function circleScenes() {
             socket.send("jdev/sps/io/15064d77-002f-de7c-ffffc1a0bc6dbf48/changeTo/" + scene).then(function(respons) {
                  
                 idx++; 
-                console.log("Successfully executed '" + respons.LL.control + "' with code " + respons.LL.Code + " and value " + respons.LL.value);
+                console.log(respons.LL.control + "" + respons.LL.Code + "" + respons.LL.value);
                 
                 setTimeout(function () {
                     iterate(scenesToIterate)
