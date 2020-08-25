@@ -55,11 +55,13 @@ const { assert } = require('console');
     });
 }
 
-function error404() {
+function errorTrue() {
   if (res.Code != "200") {
     return true
   }
 }
+
+// Tests
   describe('#socket', function () { 
     context('socket connection', function () {
       it('socket opened', async function () {
@@ -85,7 +87,7 @@ function error404() {
       });
       it('throw error if code is not 200', async function () {
         await lightTest.doTest(socket).then(async function(res) {
-          await chai.assert.isTrue(error404(),"Error 404");
+          await chai.assert.isTrue(errorTrue(),"Error");
           await(done);
         }).catch(done);
       });
