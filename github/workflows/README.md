@@ -61,14 +61,14 @@ some Errors and what you can do about it:
 <br><br>
 <hr>
 <b>do tests - mocha</b><br><br>
-lightTest.js :
+<i>lightTest.js:</i><br>
 export: doTest 
 <br><br>
 socket is opened --> socket.send --> socket.close --> return respons
 <br><br>
-expectTest.js :
-describe #test --> test if:
-• socket is opened<br><
+<i>expectTest.js:</i><br>
+describe #test --> test if: <br><br>
+• socket is opened<br>
 • socket send is successful<br>
 • code = 200<br>
 • value = 1<br>
