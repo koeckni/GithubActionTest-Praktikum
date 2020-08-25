@@ -73,8 +73,8 @@ describe #test --> test if: <br><br>
 • code = 200<br>
 • value = 1<br>
 <br><br>
-<b>How to run test</b><br>
-type: <br><br>
+<b>How to run test</b><br><br>
+type: <br>
 • mocha <br>
 or <br>
 • npm test
