@@ -31,7 +31,7 @@ type "git commit"
 Then you have to write a short subject an leave a blind line.
 Now write exactly what happened in the commit.
 <br><br>
-• Why is the change necessary?
+• Why is the change necessary?<br>
 • What effect does this change have?
 <br><br>
 if finished, esc and type ":wq" to save and exit
