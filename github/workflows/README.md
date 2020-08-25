@@ -60,23 +60,23 @@ some Errors and what you can do about it:
   Now try <ins>Step 4</ins> again and it should work. 
 <br><br>
 <hr>
-<b>do tests - mocha</b><br>
+<b>do tests - mocha</b><br><br>
 lightTest.js :
 export: doTest 
-<br>
+<br><br>
 socket is opened --> socket.send --> socket.close --> return respons
-<br>
+<br><br>
 expectTest.js :
 describe #test --> test if:
-• socket is opened<br>
-• socket send is successful<br>
-• code = 200<br>
-• value = 1<br>
-<br>
-<b>How to run test</b>
+• socket is opened<br><br>
+• socket send is successful<br><br>
+• code = 200<br><br>
+• value = 1<br><br>
+<br><br>
+<b>How to run test</b><br>
 type:
-• mocha <br>
-or <br>
+• mocha <br><br>
+or <br><br>
 • npm test
 
 Everything in folder "test" is running
