@@ -1,0 +1,33 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "launch index.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/test/index.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "launch code.js",
+            "program": "${workspaceFolder}/test/code.js",
+            "args": [
+                "bdd"
+            ],
+            "protocol": "inspector"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "launch sum.js",
+            "program": "${workspaceFolder}/test/sum.js"
+        }
+    ]
+}

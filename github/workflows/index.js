@@ -67,7 +67,7 @@ var socket = new LxCommunicator.WebSocket(config);
 socket.open("testminiserver.loxone.com:7777", "app", "LoxLIVEpasswordTest").then(function() {
     // Send a command, handle the response as you wish
     socket.send("jdev/sps/enablebinstatusupdate").then(function(respons) {
-        circleScenes();
+        circleScenes(); // entfernen, soll nicht teil der tests sein
     }, function (e) {
         
     });
