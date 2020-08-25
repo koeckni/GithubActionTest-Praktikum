@@ -68,15 +68,15 @@ socket is opened --> socket.send --> socket.close --> return respons
 <br><br>
 expectTest.js :
 describe #test --> test if:
-• socket is opened<br><br>
-• socket send is successful<br><br>
-• code = 200<br><br>
-• value = 1<br><br>
+• socket is opened<br><
+• socket send is successful<br>
+• code = 200<br>
+• value = 1<br>
 <br><br>
 <b>How to run test</b><br>
-type:
-• mocha <br><br>
-or <br><br>
+type: <br><br>
+• mocha <br>
+or <br>
 • npm test
-
+<br>
 Everything in folder "test" is running
