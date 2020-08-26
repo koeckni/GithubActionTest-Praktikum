@@ -16,6 +16,6 @@ jobs:
       run: echo Hello, world!
 
     - name: Run a multi-line script
-      run: |
+      run: 
         - mocha
 
