@@ -17,5 +17,5 @@ jobs:
 
     - name: Run a multi-line script
       run: 
-        - mocha
+        - npm test
 
