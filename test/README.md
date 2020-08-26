@@ -14,8 +14,5 @@ describe #test --> test if: <br><br>
 <br><br>
 <b>How to run test</b><br><br>
 type: <br>
-• mocha <br>
-or <br>
-• npm test
-<br>
-Everything in folder "test" is running
+"mocha" <br>
+
