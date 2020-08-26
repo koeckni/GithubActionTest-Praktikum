@@ -13,7 +13,7 @@ Go to terminal --> type: "git clone <the link you just copied>"
 <br><br>
 repository is copied now
 open it
-<br><br> 
+<br><br> <br>
 <br><br>
 <ins>Step 2:</ins>
 Add file:
