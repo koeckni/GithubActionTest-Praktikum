@@ -1,9 +1,5 @@
 # GithubActionTest-Praktikum
-
- 
-<br><br>
-<hr>
-<b>do tests - mocha</b><br><br>
+<b>do tests - mocha</b><hr><br>
 <i>lightTest.js:</i><br>
 export: doTest 
 <br><br>
