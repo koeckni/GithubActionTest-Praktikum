@@ -83,7 +83,7 @@
       it('socket send succesfull', async function() {
         await lightTest.doTest(socket).then(async function(res) { 
           await console.log("value: " + res.value);
-          await chai.expect(res.value).to.equal('1').done();
+          await chai.expect(res.value).to.equal('1');
         });
       });
     })
